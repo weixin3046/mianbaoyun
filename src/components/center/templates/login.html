@@ -1,0 +1,30 @@
+<div ng-controller="loGin">
+    <div>
+        <div id="logo">
+        </div>
+        <form>                            <!--action  规定当提交表单时向何处发送表单数据-->
+            <div class="da cha1">
+                <div class="nei"><input type="text" placeholder="手机号" name="nTxet" ng-model="user.imod"
+                  ng-yan=""      class="sjh"    ng-focus="inpq()"   ng-change="yanZhan()" maxlength="11" minlength="11"><div ng-show="chaq" class="error" ng-click="weixin()">x</div></div>
+                <div class="tiao"></div>
+            </div>
+            <div class="da">
+                <div class="nei"><input type="password" placeholder="密码" ng-model="user.mima" minlength="11"
+                                        class="psw" maxlength="11" ></div>
+                <div class="tiao"></div>
+            </div>
+            <div style="width: 75%">
+                <div class="tishi">{{tishi}}</div>
+            </div>
+        </form>
+        <div class="byuan"></div>
+        <p class="heziay"></p>
+        <div class="zc-footer">
+            <p><span></span><a ui-sref="forget">忘记密码？</a></p>
+            <div class="zc-btn">
+                <button ng-click="login()">登陆</button>
+            </div>
+            <div class="a_zce">还没有账号？<a ui-sref="register">注册</a></div>
+        </div>
+    </div>
+</div>

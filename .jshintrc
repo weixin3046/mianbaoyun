@@ -1,0 +1,14 @@
+{
+  "browserify": true,
+  "devel": true,
+  "indent": 4,
+  // "strict": true,
+  "loopfunc": true,
+  "undef": true,
+//  "unused": true, // 所有的变量必须都被使用
+  "eqeqeq": true, //必须使用全等
+  "camelcase": true,
+  "browser": true,
+  "browserify": true,
+  "predef": ["angular", "jquery"]
+}

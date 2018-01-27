@@ -1,0 +1,40 @@
+@function rem($px) {
+  @return $px / 46.875+rem;
+}
+body,html,h1,h2,h3,h4,h5,h6,p,div,p,img,input{
+  margin: 0;
+  padding: 0;
+  font-size: rem(35);
+}
+input, button, select, textarea {
+  outline: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  //border: 1px solid #CCC!important;
+  border: none;
+}
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+.tiao{
+  height: 3px;
+  width: 0;
+  background: #ff736a;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 0;
+  -webkit-transition: width 0.2s;
+}
+@import "other/header";

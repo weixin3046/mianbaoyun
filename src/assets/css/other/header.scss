@@ -1,0 +1,222 @@
+#logo {
+  background: url("../../imgs/img@2x/personCenter/bg_login.png") no-repeat 0 0;
+  width: 100%;
+  background-size: 100%;
+  height: rem(576);
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+  #logo {
+    background: url("../../imgs/img@3x/personCenter/bg_login.png") no-repeat 0 0;
+    background-size: 100%;
+  }
+}
+
+form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .cha1 {
+    position: relative;
+    .error {
+      position: absolute;
+      display: inline;
+      width: rem(35);
+      height: rem(35);
+      text-align: center;
+      line-height: rem(30);
+      border-radius: 50%;
+      color: #FFFFFF;
+      right: rem(0);
+      top: rem(30);
+      font-size: rem(12);
+      background: #cdced4;
+    }
+  }
+  .cha2 {
+    position: relative;
+    .error {
+      position: absolute;
+      display: inline;
+      width: rem(35);
+      height: rem(35);
+      text-align: center;
+      line-height: rem(30);
+      border-radius: 50%;
+      color: #FFFFFF;
+      right: rem(85);
+      top: rem(30);
+      font-size: rem(12);
+      background: #cdced4;
+    }
+  }
+  .yanjing {
+    background: url("../../imgs/img@2x/personCenter/icon_eyes_close.png") no-repeat 0 0;
+    background-size: 100%;
+    width: rem(85);
+    height: rem(85);
+
+  }
+  input {
+    width: rem(600);
+    border: none;
+    height: 100%;
+  }
+  .da {
+    position: relative;
+    margin: 1px;
+    justify-content: center;
+    align-items: center;
+    width: rem(580);
+    height: rem(100);
+    border-radius: 30px;
+    animation-timing-function: linear;
+    -webkit-transition: width 2s;
+    .nei {
+      width: rem(580);
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border-bottom: 1px #ccc solid;
+      input {
+        height: 100%;
+        width: 95%;
+      }
+    }
+  }
+  .da:nth-child(3) {
+    height: rem(100);
+    button {
+      background: #ff736a;
+      border: none;
+      width: rem(200);
+      height: rem(65);
+      border-radius: 30px;
+      color: #ffffff;
+      font-size: rem(25);
+    }
+    input {
+      width: rem(450);
+      height: 100%;
+    }
+  }
+  .da:nth-child(1) .nei {
+    position: relative;
+  }
+  .da:nth-child(3) {
+    input {
+      width: rem(355);
+      height: 100%;
+    }
+  }
+  .tishi {
+    color: red;
+  }
+}
+
+.zc-footer {
+  margin: 0 auto;
+  width: rem(630);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  p {
+    width: 100%;
+    height: rem(100);
+    font-size: rem(25);
+    color: #798ba1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      color: #f66d44;
+    }
+  }
+  .zc-btn {
+    width: 100%;
+    height: rem(150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      width: rem(450);
+      height: rem(75);
+      border-radius: 30px;
+      color: #ffffff;
+      background: linear-gradient(to left, #fe9d6f 0%, #ff5f67 100%);
+    }
+  }
+  .a_zce {
+    height: rem(80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #798ba1;
+    a {
+      color: #f66d44;
+    }
+  }
+}
+.byuan {
+  position: absolute;
+  top: rem(672);
+  left: rem(661);
+  width: rem(63);
+  height: rem(97.5);
+  border: 3.5px solid #f66d44;
+  border-left: none;
+  border-radius: 0 rem(55) rem(55) 0;
+}
+.hezit {
+  position: absolute;
+  top: rem(772);
+  left: rem(661);
+  width: rem(74);
+  height: rem(112);
+  animation-timing-function: linear;
+  -webkit-transition: top 0.2s;
+  background: #FFFFFF;
+}
+.hezibt {
+  position: absolute;
+  top: rem(576);
+  left: rem(661);
+  width: rem(74);
+  height: rem(112);
+  animation-timing-function: linear;
+  -webkit-transition: top 0.2s;
+  background: #FFFFFF;
+}
+
+.heziby {
+  position: absolute;
+  top: rem(576);
+  left: rem(661);
+  width: rem(74);
+  height: rem(112);
+  background: #FFFFFF;
+}
+
+.heziat {
+  position: absolute;
+  top: rem(672);
+  left: rem(661);
+  width: rem(74);
+  height: rem(112);
+  animation-timing-function: linear;
+  -webkit-transition: top 0.2s;
+  background: #FFFFFF;
+}
+
+.heziay {
+  position: absolute;
+  top: rem(672);
+  left: rem(661);
+  width: rem(74);
+  height: rem(112);
+  background: #FFFFFF;
+}

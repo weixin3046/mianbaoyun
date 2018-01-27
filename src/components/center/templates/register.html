@@ -1,0 +1,42 @@
+<div ng-controller="Register">
+    <div>
+        <div id="logo">
+        </div>
+        <form>                            <!--action  规定当提交表单时向何处发送表单数据-->
+            <div class="da cha1">
+                <div class="nei"><input type="text" placeholder="手机号" name="nTxet" ng-model="user.imod"
+                           ng-yan=""      class="sjh"    ng-focus="inpq()"   ng-change="yanZhan()" maxlength="11" minlength="11"><div ng-show="cha" class="error" ng-click="weixin()">x</div></div>
+                <div class="tiao"></div>
+            </div>
+
+            <div class="da">
+                <div class="nei"><input type="text" name="nTxetq" placeholder="图形码" ng-model="user.tua" class="txm"><span><img
+                        src="{{k}}" ng-click="tu()" ng-show="xian"></span></div>
+                <div class="tiao"></div>
+            </div>
+
+            <div class="da">
+                <div class="nei"><input type="text" placeholder="验证码" class="yzm" ng-model="user.yan">
+                    <button ng-click="huo()" id="ick">获取验证码</button>
+                </div>
+                <div class="tiao"></div>
+            </div>
+
+            <div class="da cha2">
+                <div class="nei"><input type="password" ng-focus="inpw()" ng-model="user.mima" placeholder="密码" class="psw"><div ng-show="chaw" class="error" ng-click="weixina()">x</div><div ng-show="chaw" ng-model="zxc" class="yanjing"></div></div>
+                <div class="tiao"></div>
+            </div>
+
+            <div style="width: 75%">
+                <div class="tishi">{{tishi}}</div>
+            </div>
+        </form>
+        <div class="zc-footer">
+            <p>点击“注册”按钮，即表示您同意<span class="xieyi">《面包云注册服务协议》</span></p>
+            <div class="zc-btn">
+                <button ng-click="fun()">注册</button>
+            </div>
+            <div class="a_zce"><a ui-sref="login">已有账号</a></div>
+        </div>
+    </div>
+</div>
